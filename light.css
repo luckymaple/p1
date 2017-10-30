@@ -1,0 +1,85 @@
+/* Light themes specific CSS */
+.well {
+
+}
+.well2 {
+	height: 200px;
+	padding-top: 100px;
+	padding-left: 85px;
+    background: url(../images/bg-download.png) no-repeat;
+}
+
+.well3 {
+    position: relative;
+    z-index: 2;
+    background: url(../images/bg-user-top.png) top left no-repeat, 
+                url(../images/bg-user-bot.png) bottom left no-repeat;	
+	
+}
+
+.well3:before {
+    content: '';
+    position: absolute;
+    z-index: -1; /* push it to the background */
+    top: 50px; /* position it off the top background */
+    right: 0;
+    bottom: 12px; /* position it off the bottom background */
+    left: 0;
+    background: url(../images/bg-user-middle.png) top left repeat-y;
+}
+
+.well4 {
+    position: relative;
+    z-index: 2;
+    background: url(../images/bg-rankings-top.png) top left no-repeat, 
+                url(../images/bg-rankings-bot.png) bottom left no-repeat;	
+	
+}
+
+.well4:before {
+    content: '';
+    position: absolute;
+    z-index: -1; /* push it to the background */
+    top: 30px; /* position it off the top background */
+    right: 0;
+    bottom: 12px; /* position it off the bottom background */
+    left: 0;
+    background: url(../images/bg-rankings-middle.png) top left repeat-y;
+}
+
+.well5 {
+	height: 300px;
+    background: url(../images/bg-news.png) no-repeat;		
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.well6 {
+	height: 300px;
+    background: url(../images/bg-events.png) no-repeat;		
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.well7 {
+	padding-left: 20px;
+	padding-right: 20px;	
+	padding-top: 40px;
+	padding-bottom: 20px;
+    position: relative;
+    z-index: 2;
+    background: url(../images/bg-normal-top.png) top left no-repeat, 
+                url(../images/bg-normal-bot.png) bottom left no-repeat;	
+	
+}
+
+.well7:before {
+    content: '';
+    position: absolute;
+    z-index: -1; /* push it to the background */
+    top: 50px; /* position it off the top background */
+    right: 0;
+    bottom: 12px; /* position it off the bottom background */
+    left: 0;
+    background: url(../images/bg-normal-middle.png) top left repeat-y;
+}

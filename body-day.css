@@ -1,0 +1,9 @@
+	body,
+	body.day {
+		background: url(../images/bg_sub.png) no-repeat, 
+		url(../images/bg_char.png) no-repeat, 
+		#01adff url(../images/bg_day.jpg) no-repeat;
+		background-position: center 0, center 0, center 0;
+		background-attachment: fixed;
+		min-width: 1244px
+	}

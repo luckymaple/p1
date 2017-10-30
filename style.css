@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+.lucky_header{
+    width: 100%;
+    float: left;
+    height: 550px;
+    background: url(../images/bg-header.png) top center no-repeat;
+    margin-bottom: 10px; 		
+}.lucky_div{		margin-left: 50px;		margin-right: 50px;		height: 50px;		line-height: 50px;		text-align: center;		color: white;}	#textbox {	z-index: 1000000;	width: 1140px;    display: flex;    justify-content: space-between;	position: fixed;	height: 50px;		line-height: 50px;		text-align: center;		color: white;	}.alignleft {  float: left;  width:33.33333%;  text-align:left;}.aligncenter {  float: left;  width:33.33333%;  text-align:center;}.alignright { float: left; width:33.33333%; text-align:right;}​.lucky_online{		position: fixed;		z-index: 999998;	}.lucky_online_text{		text-align: right;			z-index: 999999;			color: white;}
+.intophead{
+    width: 1200px;
+    float: left;
+    height: 250px;;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.flashlogo{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    margin-top: 310px;
+    z-index: 10;
+    margin-left: 400px;
+    display: block;
+    cursor: pointer;
+}
+.bt-index{
+    position: absolute;
+    width: 350px;
+    height: 240px;
+    margin-top: 310px;
+    z-index: 11;
+    margin-left: 400px;
+    display: block;
+}
+.topbar{
+    width: 1200px;
+    float: left;
+    height: 140px;
+    z-index: 9;
+}.bt00{    width: 270px;    height: 140px;      float: left;}
+.bt01{
+    width: 180px; /*126px*/
+    height: 140px;
+    background: url(../images/bt01.png) center center no-repeat;
+    float: left;
+}.bt01:hover{    width: 180px;    height: 140px;    background: url(../images/bt01-hover.png) center center no-repeat;    float: left;}
+.bt02{
+    width: 180px;
+    height: 140px;
+    background: url(../images/bt02.png) center center no-repeat;
+    float: left;
+}.bt02:hover{    width: 180px;    height: 140px;    background: url(../images/bt02-hover.png) center center no-repeat;    float: left;}
+.bt03{
+    width: 180px;
+    height: 140px;
+    background: url(../images/bt03.png) center center no-repeat;
+    float: left;
+}
+.bt04{
+    width: 180px;
+    height: 140px;
+    background: url(../images/bt04.png) center center no-repeat;
+    float: left;
+    margin-left: 400px;
+}.bt04:hover{    width: 180px;    height: 140px;    background: url(../images/bt04-hover.png) center center no-repeat;    float: left;    margin-left: 400px;}
+.bt05{
+    width: 180px;
+    height: 140px;
+    background: url(../images/bt05.png) center center no-repeat;
+    float: left;
+}.bt05:hover{    width: 180px;    height: 140px;    background: url(../images/bt05-hover.png) center center no-repeat;    float: left;}
+.bt06{
+    width: 180px;
+    height: 140px;
+    background: url(../images/bt06.png) center center no-repeat;
+    float: left;
+}
+/***************************/
+.rowcol{
+    width: 1200px;
+    float: left;
+    height: auto;
+}
+.col-left{
+    width: 840px;
+    height: auto;
+    float: left;
+}
+.col-right{
+    width: 340px;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+}
+.botbox{
+    margin-bottom: 10px;
+}
+.botbt{
+    margin-bottom: 10px;
+}
+.innerbox{
+    padding: 20px;
+    width: 100%;
+}
+.subrowcol{
+    width: 100%;
+}
+.subcol-left01{
+    width: 415px;
+    margin-right: 10px;
+    float: left;
+}
+.subcol-left02{
+    width: 415px;
+    float: left;
+}
+.bglogin{
+    width: 820px;
+    height: 413px;
+    background: url(../images/bg-mem-login.png) top center no-repeat;
+    margin-left: -30px;
+    padding-top: 170px;
+    padding-left: 340px;
+}
+.menumember{
+    width: 100%;
+    padding: 10px;
+}
+.p-mem{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 18px;
+    line-height: 20px;
+    font-size: 30px;
+    font-family: true-thai;
+}
+.bt-mem{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 18px;
+    line-height: 20px;
+    font-size: 30px;
+    font-family: true-thai;
+}
+.bt-mem:hover{
+    background: #00aeef;
+    color: #fff;
+}
+.linemem{
+    display: inline-block;
+    height: 30px;
+    margin-bottom: -8px;
+    border-left: 1px #00aeef solid;
+    width: 1px;
+}
+/**************************/
+.subtitle{
+    font-family: true-thai;
+    font-size: 20px;
+    line-height: 18px;
+}
+.bg-box-detail {
+    border: 8px solid #e5d757;
+    box-shadow: 0px 0px 0px 2px rgba(38,50,56,1);
+    border-radius: 30px;
+    width:100%;
+}
+.box-detail {
+    border: 2px solid #212121;
+    box-shadow: 0px 0px 0px 3px rgba(255,255,255,1);
+    border-radius: 25px;
+    background: #fff9cc;
+    position: relative;
+}
+.bg-box-game {
+    border: 8px solid #99dff8;
+    box-shadow: 0px 0px 0px 2px rgba(38,50,56,1);
+    border-radius: 30px;
+    width:100%;
+}
+.box-game {
+    border: 2px solid #212121;
+    box-shadow: 0px 0px 0px 3px rgba(255,255,255,1);
+    border-radius: 25px;
+    background: #f1f8e9;
+    position: relative;
+    padding: 0px 0;
+}
+.head-name {
+    font-family: true-thai;
+    font-size: 40px;
+    color: #fff;
+    background: #ff8380;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: inline-block;
+    line-height: 30px;
+    padding: 5px 20px;
+    box-shadow: 3px 3px 0px 1px rgba(0,0,0,1);
+}
+.head-name2 {
+    font-family: true-thai;
+    font-size: 40px;
+    color: #fff;
+    background: #00aeef;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: inline-block;
+    line-height: 30px;
+    padding: 5px 20px;
+    box-shadow: 3px 3px 0px 1px rgba(0,0,0,1);
+}
+
+/**************************/
+.footer{
+    background: url(../images/footer.png) top center repeat-x;
+    width: 100%;
+    float: left;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: true-thai;
+    font-size: 26px;
+    max-height: 238px;
+    height: 238px;
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    color: deepskyblue;
+}.rank_img{}.rank_text_top_left {	color: #000000;    position: absolute;    top: 8px;    /*left: 16px;*/}.rank_text{    position: relative;    text-align: center;    color: white;}.lucky_news{		background: url(../images/news-button.png) center center no-repeat;}.lucky_news:hover{    background: url(../images/news-button-hover.png) center center no-repeat;}

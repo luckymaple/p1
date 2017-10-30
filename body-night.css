@@ -1,0 +1,16 @@
+	body,
+	body.night {
+		background: url(../images/bg_sub.png) no-repeat, 
+		url(../images/bg_char.png) no-repeat,  
+		url(../images/bg_night.jpg) no-repeat;
+		background-position: center 0, center 0, center 0;
+		background-attachment: fixed;
+		background-color: #030d4b
+	}
+	body.night.body-scroll {
+		background: url(../images/bg_sub.png) no-repeat, 
+		url(../images/bg_char.png) no-repeat, 
+		#030d4b url(../images/bg_night_long.jpg) no-repeat;
+		background-position: center 0, center 0, center bottom -35px!important;
+		background-attachment: scroll
+	}
